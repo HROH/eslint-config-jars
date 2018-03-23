@@ -1,11 +1,15 @@
 {
-  "name": "eslint-config-jars",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Holger Haas",
-  "license": "MIT"
+    "name": "eslint-config-jars",
+    "version": "0.1.0",
+    "description": "A shared eslint configuration for jars related projects",
+    "author": "Holger Haas",
+    "private": true,
+    "license": "MIT",
+    "main": "index.js",
+    "peerDependencies": {
+        "eslint": "^4.19.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
 }
